@@ -1,10 +1,4 @@
 'use client'
-
-import { useState, useEffect, Suspense } from 'react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
-import { CheckCircle2, Package, Clock, Truck } from 'lucide-react'
-
 interface OrderData {
   orderId: string
   trackingNumber: string
